@@ -117,8 +117,8 @@ p, span, li{
 }
 #img2{
     height: 500px;
-    width: 800px;
-    border: 2px solid rgb(0, 195, 255);
+    width: 900px;
+    border: 2px solid rgb(80, 208, 247);
     animation-name: img1;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
