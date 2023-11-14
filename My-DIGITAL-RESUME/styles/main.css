@@ -175,6 +175,27 @@ p, span, li{
         box-shadow: red;
     }
 }
+#img5{
+    height: 500px;
+    width: 800px;
+    border: 2px solid rgb(0, 195, 255);
+    animation-name: img1;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes img5{
+    from{
+        font-size: 40px;
+        box-shadow: 5px 5px 20px rgb(80, 225, 233);
+    }
+    to{
+        font-size: 45px;
+        box-shadow: red;
+    }
+}
+
 #exp:hover{
     box-shadow: 5px 5px 20px rgb(0, 247, 255);
     animation-name: exp;
