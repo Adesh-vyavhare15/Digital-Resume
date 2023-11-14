@@ -11,7 +11,7 @@
     --secondaryTextColor-dark:#adb0b1;
     --mainLinkColor-dark:rgb(30, 190,214);
     --mainBorderColor-dark:#2b3031;
-    --mainBgColor-dark:#131415;
+    --mainBgColor-dark:#000000;
     
     
     /* --mainTextColor:var(--mainTextColor-light); 
@@ -54,7 +54,7 @@ p, span, li{
 .a:hover{
     rotate: 2deg;
     color:rgb(107, 255, 211);
-    box-shadow: 10px 10px 30px rgb(0, 238, 255);
+    box-shadow: 10px 10px 40px rgb(0, 238, 255);
     
 }
 #boxeff:hover{
@@ -173,6 +173,24 @@ p, span, li{
     to{
         font-size: 45px;
         box-shadow: red;
+    }
+}
+#exp:hover{
+    box-shadow: 5px 5px 20px rgb(0, 247, 255);
+    animation-name: exp;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    animation-duration: 2s;
+}
+@keyframes exp{
+    from{
+        font-size: 15px;
+        box-shadow: 5px 5px 20px rgb(80, 225, 233);
+    }
+    to{
+        font-size: 20px;
+        box-shadow: 5px 5px 20px red;
     }
 }
 a{
